@@ -1,0 +1,40 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: disc;
+    > a:nth-child(1) {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+      margin: 0;
+      color: #f8f8f8;
+      text-decoration: none;
+      margin-right: 1.4em;
+    }
+    > li {
+      color: #f8f8f8;
+      margin-right: 1.8em;
+      > a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 0;
+        color: #fdfdfd;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Footer {
+    margin-top: -1.4em;
+    > ul {
+    }
+  }
+}

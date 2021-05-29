@@ -1,9 +1,12 @@
 import './App.css';
+import Footer from './Components/Footer/Footer';
+import ContentBox from './Components/LandingPage/ContentBox';
 
 function App() {
   return (
     <div className='App'>
-      <h1 style={{ margin: '0', padding: '0', width: '100%' }}>Hi</h1>
+      <ContentBox />
+      <Footer />
     </div>
   );
 }
