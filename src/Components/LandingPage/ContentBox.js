@@ -15,7 +15,7 @@ const ContentBox = () => {
           <img src={logo} alt='Bujulo Logo' />
           <p>Bujulo</p>
         </span>
-        <p>Hey we’re still opening up but anyone can register to get early access for the beta version.</p>
+        <p>Hey, we’re still opening up but anyone can register to get early access for the beta version.</p>
         <p>Discover the Difference.</p>
         <p>Messaging, Short-Videos and Livestreams. </p>
         <span>
