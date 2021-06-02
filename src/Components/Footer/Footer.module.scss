@@ -34,7 +34,10 @@
 @media only screen and (max-width: 768px) {
   .Footer {
     margin-top: -2.6em;
+    position: fixed;
+    bottom: 6%;
     > ul {
+      margin-left: -0.6em;
     }
   }
 }

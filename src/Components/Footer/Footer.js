@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import classes from './Footer.module.scss';
 
@@ -8,21 +9,21 @@ const Footer = () => {
       <ul>
         <a href='/'>Home</a>
         <li>
-          <a href='/community-guidelines.pdf' target='_blank' rel='noreferrer'>
+          <Link to='/community-guidelines.pdf' target='_blank' rel='noreferrer'>
             Guidelines
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href='/press.pdf' target='_blank' rel='noreferrer'>
+          <Link to='/press.pdf' target='_blank' rel='noreferrer'>
             Press
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href='/privacy-policy.pdf' target='_blank' rel='noreferrer'>
+          <Link to='/privacy-policy.pdf' target='_blank' rel='noreferrer'>
             Privacy
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
