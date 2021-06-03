@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import classes from './Footer.module.scss';
 
@@ -9,21 +8,33 @@ const Footer = () => {
       <ul>
         <a href='/'>Home</a>
         <li>
-          <Link to='/community-guidelines.pdf' target='_blank' rel='noreferrer'>
+          <a
+            href='https://www.notion.so/Community-Guidelines-d0eeb2ca4f094ccfa3f3e58fe5f28435'
+            target='_blank'
+            rel='noreferrer'
+          >
             Guidelines
-          </Link>
+          </a>
         </li>
 
         <li>
-          <Link to='/press.pdf' target='_blank' rel='noreferrer'>
+          <a
+            href='https://www.notion.so/Press-75233bffce4547a6a337416c49de1c61'
+            target='_blank'
+            rel='noreferrer'
+          >
             Press
-          </Link>
+          </a>
         </li>
 
         <li>
-          <Link to='/privacy-policy.pdf' target='_blank' rel='noreferrer'>
+          <a
+            href='https://www.notion.so/Privacy-aca26bf8fdfd4a28bf74d8e2d03554f7'
+            target='_blank'
+            rel='noreferrer'
+          >
             Privacy
-          </Link>
+          </a>
         </li>
       </ul>
     </div>
