@@ -79,6 +79,7 @@
     align-items: center;
     justify-content: center;
     background-color: #f7f7f7;
+
     border-radius: 20em;
     padding: 0.7em 0em 0.24em 0;
     transition: all 0.36s;
@@ -104,12 +105,12 @@
     .Container {
       width: 88%;
       height: 66%;
-      margin-top: -2em;
+      margin-top: -7em;
       padding: 0.4em 0.8em;
       > span:nth-child(1) {
         width: 30%;
         > img {
-          width: 55%;
+          width: 45%;
         }
         > p {
         }
@@ -141,10 +142,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #f7f7f7;
+      background-color: #a9c9ff;
+      background-image: linear-gradient(360deg, #a9c9ff 100%, #ffbbec 100%);
       padding: 0.8em 1em 0.7em 0;
       transition: all 0.36s;
       border-radius: 0;
+
       box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
       > a {
         width: 100%;

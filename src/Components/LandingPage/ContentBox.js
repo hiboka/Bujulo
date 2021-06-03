@@ -30,7 +30,7 @@ const ContentBox = () => {
       <div className={classes.SocailBox}>
         <a href='http://www.instagram.com/Bujulo_byte' target='_blank' rel='noreferrer'>
           <img src={instagramLogo} alt='instagram' />
-          <p>@bujulo_byte</p>
+          {/* <p>@bujulo_byte</p> */}
         </a>
       </div>
     </div>
